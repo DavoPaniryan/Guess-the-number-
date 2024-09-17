@@ -1,0 +1,64 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #a9a9a9;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.game-container {
+    display: none;
+    background-color: rgb(228, 226, 226);
+    padding: 30px;
+    box-shadow: 0 8px 100px rgba(0, 0, 0, 0.4);
+    border-radius: 10px;
+}
+.container {
+    display: none;
+}
+.container.starts {
+    display: block;
+}
+.start-container.hide {
+    display: non;
+}
+
+.game-container {
+    display: inline-block;
+}
+
+input[type="number"] {
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #20cf20;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background-color: #20cf20a8;
+}
+
+#feedback {
+    margin-top: 20px;
+    font-size: 18px;
+    color: #333;
+}
+
+#userGuess {
+width: 150px;
+}
+
+#attempts {
+    font-size: 16px;
+    color: #666;
+}
