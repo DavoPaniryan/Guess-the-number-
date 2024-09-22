@@ -12,6 +12,8 @@ const feedback = document.getElementById('feedback');
 startButton.onclick = () => {
     const startValue = parseInt(start.value);
     const endValue = parseInt(end.value);
+    
+    if(isNaN(startValue) || isNaN(endValue)) return
 
     if (startValue >= endValue) {
         paragraph.textContent = 'Please enter valid numbers where the start is less than the end.';
